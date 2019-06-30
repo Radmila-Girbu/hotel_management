@@ -7,7 +7,9 @@ public class Customer extends Person{
         super(firstName, lastName, adressPerson, contactPerson, identityCard);
         this.email = email;
     }
+public Customer(){
 
+}
     public String getEmail() {
         return email;
     }

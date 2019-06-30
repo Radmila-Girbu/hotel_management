@@ -6,9 +6,9 @@ public class Room {
     private String typeOfRoom;
     private String view;
     private  String occupiedStatus;
-    private PriceRate price;
+    private double price;
 
-    public Room(int number, String typeOfRoom, String view, String occupiedStatus, PriceRate price) {
+    public Room(int number, String typeOfRoom, String view, String occupiedStatus, double price) {
         this.number = number;
         this.typeOfRoom = typeOfRoom;
         this.view = view;
@@ -48,11 +48,11 @@ public class Room {
         this.occupiedStatus = occupiedStatus;
     }
 
-    public PriceRate getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(PriceRate price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 }

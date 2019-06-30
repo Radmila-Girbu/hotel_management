@@ -4,6 +4,7 @@ import java.text.DateFormat;
 
 public enum Season {
     IN_SEASON,
-    LOW_SEASON
+    LOW_SEASON,
+    ERROR_SEASON;
 
 }

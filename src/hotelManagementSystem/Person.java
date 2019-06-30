@@ -1,7 +1,7 @@
 package hotelManagementSystem;
 
 public abstract class Person {
-    private String firstName;
+    protected String firstName;
     private String lastName;
     private Address adressPerson;
     private Contact contactPerson;
@@ -13,6 +13,9 @@ public abstract class Person {
         this.adressPerson = adressPerson;
         this.contactPerson = contactPerson;
         this.identityCard = identityCard;
+    }
+    public Person(){
+
     }
 
     public String getFirstName() {
