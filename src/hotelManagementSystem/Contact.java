@@ -2,7 +2,7 @@ package hotelManagementSystem;
 
 public class Contact {
     private Address address;
-    private String emailAdress;
+    private String emailAddress;
     private String facebookPage;
     private String linkBooking;
     private String phoneNumber;
@@ -17,11 +17,11 @@ public class Contact {
     }
 
     public String getEmailAdress() {
-        return emailAdress;
+        return emailAddress;
     }
 
     public void setEmailAdress(String emailAdress) {
-        this.emailAdress = emailAdress;
+        this.emailAddress = emailAdress;
     }
 
     public String getFacebookPage() {

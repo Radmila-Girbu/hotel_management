@@ -15,6 +15,9 @@ public class Room {
         this.occupiedStatus = occupiedStatus;
         this.price = price;
     }
+    public Room(){
+
+    }
 
     public int getNumber() {
         return number;

@@ -3,7 +3,7 @@ package hotelManagementSystem;
 public abstract class IdentityCard {
     private String cnp;
     private String serial;
-    private short number;
+    private int number;
     private String dateIssuingIC;
     private String dateExpiringIC;
 
@@ -31,11 +31,12 @@ public abstract class IdentityCard {
         this.serial = serial;
     }
 
-    public short getNumber() {
+
+    public int getNumber() {
         return number;
     }
 
-    public void setNumber(short number) {
+    public void setNumber(int number) {
         this.number = number;
     }
 

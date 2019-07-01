@@ -1,19 +1,22 @@
 package hotelManagementSystem;
 
 public abstract class Person {
-    protected String firstName;
+    private String firstName;
     private String lastName;
-    private Address adressPerson;
+    private Address addressPerson;
     private Contact contactPerson;
     private IdentityCard identityCard;
+    private Role role;
 
-    public Person(String firstName, String lastName, Address adressPerson, Contact contactPerson, IdentityCard identityCard) {
+    public Person(String firstName, String lastName, Address addressPerson, Contact contactPerson, IdentityCard identityCard, Role role) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.adressPerson = adressPerson;
+        this.addressPerson = addressPerson;
         this.contactPerson = contactPerson;
         this.identityCard = identityCard;
+        this.role = role;
     }
+
     public Person(){
 
     }
@@ -34,13 +37,6 @@ public abstract class Person {
         this.lastName = lastName;
     }
 
-    public Address getAdressPerson() {
-        return adressPerson;
-    }
-
-    public void setAdressPerson(Address adressPerson) {
-        this.adressPerson = adressPerson;
-    }
 
     public Contact getContactPerson() {
         return contactPerson;
@@ -56,5 +52,21 @@ public abstract class Person {
 
     public void setIdentityCard(IdentityCard identityCard) {
         this.identityCard = identityCard;
+    }
+
+    public Address getAddressPerson() {
+        return addressPerson;
+    }
+
+    public void setAddressPerson(Address addressPerson) {
+        this.addressPerson = addressPerson;
+    }
+
+    public Role getRole() {
+        return role;
+    }
+
+    public void setRole(Role role) {
+        this.role = role;
     }
 }

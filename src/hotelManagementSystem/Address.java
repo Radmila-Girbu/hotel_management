@@ -4,7 +4,7 @@ public class Address {
     private String country;
     private String city;
     private String street;
-    private short number;
+    private int number;
     private String postalCode;
 
     public Address(String country, String city, String street, short number, String postalCode) {
@@ -39,11 +39,11 @@ public class Address {
         this.street = street;
     }
 
-    public short getNumber() {
+    public int getNumber() {
         return number;
     }
 
-    public void setNumber(short number) {
+    public void setNumber(int number) {
         this.number = number;
     }
 

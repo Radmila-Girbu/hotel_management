@@ -2,13 +2,9 @@ package hotelManagementSystem;
 
 public class Employee extends Person {
     private int  salary;
-    private String role;
+    private Role role;
 
-    public Employee(String firstName, String lastName, Address adressPerson, Contact contactPerson, IdentityCard identityCard, int salary, String role) {
-        super(firstName, lastName, adressPerson, contactPerson, identityCard);
-        this.salary = salary;
-        this.role = role;
-    }
+
 
     public int getSalary() {
         return salary;
@@ -18,11 +14,5 @@ public class Employee extends Person {
         this.salary = salary;
     }
 
-    public String getRole() {
-        return role;
-    }
 
-    public void setRole(String role) {
-        this.role = role;
-    }
 }
