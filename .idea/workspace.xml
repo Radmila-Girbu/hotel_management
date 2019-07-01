@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5689bfa1-e3c5-442a-b9be-71e0eb194f95" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/hotelManagementSystem/IdentityCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hotelManagementSystem/IdentityCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hotelManagementSystem/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hotelManagementSystem/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hotelManagementSystem/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hotelManagementSystem/User.java" afterDir="false" />
-    </list>
+    <list default="true" id="5689bfa1-e3c5-442a-b9be-71e0eb194f95" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -328,7 +324,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
