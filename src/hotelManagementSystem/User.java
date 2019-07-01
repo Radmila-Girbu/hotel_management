@@ -2,23 +2,20 @@ package hotelManagementSystem;
 
 public class User extends Person {
 
-    private Role role;
+
     private String password;
     private String login;
 
-    public User(String firstName, String lastName, Address adressPerson, Contact contactPerson, IdentityCard identityCard, Role role, String password, String login) {
-        super(firstName, lastName, adressPerson, contactPerson, identityCard);
-        this.role = role;
+
+    public User(String firstName, String lastName, Address addressPerson, String phoneNumber, IdentityCard identityCard, Role role, String password, String login) {
+        super(firstName, lastName, addressPerson, phoneNumber, identityCard, role);
         this.password = password;
         this.login = login;
     }
 
-    public Role getRole() {
-        return role;
-    }
-
-    public void setRole(Role role) {
-        this.role = role;
+    public User(String password, String login) {
+        this.password = password;
+        this.login = login;
     }
 
     public String getPassword() {

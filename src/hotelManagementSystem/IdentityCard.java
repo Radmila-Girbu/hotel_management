@@ -1,6 +1,6 @@
 package hotelManagementSystem;
 
-public abstract class IdentityCard {
+public class IdentityCard {
     private String cnp;
     private String serial;
     private int number;

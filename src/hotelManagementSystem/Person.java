@@ -4,15 +4,15 @@ public abstract class Person {
     private String firstName;
     private String lastName;
     private Address addressPerson;
-    private Contact contactPerson;
+    private String phoneNumber;
     private IdentityCard identityCard;
     private Role role;
 
-    public Person(String firstName, String lastName, Address addressPerson, Contact contactPerson, IdentityCard identityCard, Role role) {
+    public Person(String firstName, String lastName, Address addressPerson, String phoneNumber, IdentityCard identityCard, Role role) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.addressPerson = addressPerson;
-        this.contactPerson = contactPerson;
+        this.phoneNumber = phoneNumber;
         this.identityCard = identityCard;
         this.role = role;
     }
@@ -38,12 +38,12 @@ public abstract class Person {
     }
 
 
-    public Contact getContactPerson() {
-        return contactPerson;
+    public String getPhoneNumber() {
+        return phoneNumber;
     }
 
-    public void setContactPerson(Contact contactPerson) {
-        this.contactPerson = contactPerson;
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
     }
 
     public IdentityCard getIdentityCard() {
